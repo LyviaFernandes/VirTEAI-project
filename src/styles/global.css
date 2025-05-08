@@ -1,0 +1,30 @@
+@font-face {
+    font-family: 'Comfortaa';
+    src: url('../assets/fonts/Comfortaa-VariableFont_wght.ttf');         
+}
+@font-face {
+    font-family: 'Marmelad';
+    src: url('../assets/fonts/Marmelad-Regular.ttf');         
+}
+
+*{
+    margin: 0px;
+    border: 0px;
+    padding: 0px;
+}
+
+p{
+    font-family: 'Comfortaa';
+}
+
+h2, button{
+    font-family: 'Marmelad';
+}
+:root{
+    --color-blue-confort: #415A77;
+    --color-white: #FFFFFF;
+    --color-background-header: #CADAED;
+    --color-black: #000000;
+
+    font: 'Comfortaa';
+}
