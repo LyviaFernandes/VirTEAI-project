@@ -10,7 +10,7 @@ header{
 
 nav{
     display: flex;
-    gap: 40px;
+    gap: 20px;
     text-align: center;
     margin-top: 31px;
     margin-bottom: 29px;
@@ -19,22 +19,21 @@ nav{
 
 .container-header img{
    width: 45px;
-   gap: 180px;
-}
-.container-header .container-compras img{
-    width: 28px;
 
 }
-
+.container-nav p{
+    width: 130px;
+}
 .logo{
-    width: 148px;
+    width: 138px;
     height: 136px;
-    margin-right: 100px;
+    margin-right: 70px;
 }
 
 .container-button-header{
     margin-top: 39px;
     margin-left: 100px;
+    display: flex;
 }
 
 .white{
@@ -53,3 +52,109 @@ nav{
     color: var(--color-white);
 }
 /* FIM HEADER */
+
+/* VR SECTION */
+.vr-img img{
+    width: 100%;
+}
+/* FIM VR SECTION */
+
+/* RELATOS */
+.texto-relatos{
+    margin-top: 50px;
+    margin-bottom: 60px;
+    text-align: center;
+    justify-items: center;
+}
+.texto-relatos h2{
+   font-size: 50px;
+   margin-bottom: 40px;
+}
+
+.texto-relatos p{
+    font-size: 24px;
+    width: 1100px;
+    text-align: center;
+}
+
+.cards-container{
+    display: flex;
+    gap: 40px;
+    width: 100%; /* Defina a largura do contêiner */
+    height: 100; /* Defina a altura do contêiner */
+    overflow-y  : scroll; /* Habilita a rolagem horizontal */
+   
+}
+
+.card-relatos{
+    background-color: var(--color-background-header);
+    padding: 20px;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.card-relatos .relato{
+    background-color: var(--color-white);
+    padding: 10px;
+    height: 307px;
+    border-radius: 20px;
+    margin-top: 19px;
+    font-size: 16px;
+    text-align: justify;
+}
+
+.card-relatos .relato .nome{
+    text-align: center;
+    margin-top: 16px;
+    margin-bottom: 20px;
+}
+
+.line {
+    margin-bottom: 20px;
+    width: 100%;
+    height: 1px;
+    background-color: black;
+}
+/* FIM RELATOS */
+
+/* EMPRESAS PARCEIRAS */
+.Empresas{
+    margin-bottom: 118px;
+}
+.text-empresa{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 80px;
+    justify-content: center
+}
+.text-empresa h2{
+    font-size: 50px;
+    margin-bottom: 50px;
+}
+
+.text-empresa p{
+    font-size: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.container-parceiros{
+    display: flex;
+    gap: 100px;
+    text-align: center;
+    margin-left: 70px;
+}
+
+.container-parceiros .parceiros img{
+    width: 200px;
+    height: 170px;
+    margin-bottom: 23px;
+}
+/* FIM EMPRESAS PARCEIRAS */
+
+/* FOOTER */
+/* FIM FOOTER */
