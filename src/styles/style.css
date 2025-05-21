@@ -157,4 +157,43 @@ nav{
 /* FIM EMPRESAS PARCEIRAS */
 
 /* FOOTER */
+footer{
+    display: flex;
+    padding-bottom: 36px;
+    padding-top: 55px;
+    background-color: var(--color-background-header);
+    justify-content: space-around;
+}
+
+.logo-footer img{
+    margin-bottom: 44px;
+}
+
+.logo-footer p{
+    line-height: 2;
+}
+
+.contato-footer h6, .ajuda-footer h6, .termos-footer h6{
+    font-size: 23px;
+    margin-bottom: 22px;
+}
+
+.contato-footer p, .ajuda-footer p, .termos-footer p{
+    font-size: 20px;
+    margin-bottom: 22px;
+    line-height: 2;
+    cursor: pointer;
+}
+
+.sociais-midias{
+    display: flex;
+    flex-direction: row;
+    align-items:start;
+
+}
+
+.sociais-midias img{
+    margin-right: 10px;
+
+}
 /* FIM FOOTER */
