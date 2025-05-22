@@ -1,0 +1,200 @@
+@import url('/src/styles/global.css');
+
+/* HEADER */
+header{
+    display: flex;
+    justify-content: center;
+    background-color: var(--color-background-header);
+    padding: 3px 45px;
+}
+
+nav{
+    display: flex;
+    gap: 20px;
+    text-align: center;
+    margin-top: 31px;
+    margin-bottom: 29px;
+
+}
+
+.container-header img{
+   width: 45px;
+   cursor: pointer;
+
+}
+.container-nav a p{
+    width: 130px;
+    cursor: pointer;
+    list-style: none;
+    text-decoration: none;
+}
+.logo{
+    width: 138px;
+    height: 136px;
+    margin-right: 70px;
+}
+
+.container-button-header{
+    margin-top: 39px;
+    margin-left: 100px;
+    display: flex;
+}
+
+.white{
+    width: 120px;
+    height: 45px;
+    border-radius: 10px;
+    margin-right: 15px;
+    background-color: var(--color-white);
+    cursor: pointer;
+}
+
+.blue{
+    width: 150px;
+    height: 45px;
+    border-radius: 10px;
+    background-color: var(--color-blue-confort);
+    color: var(--color-white);
+    cursor: pointer;
+}
+/* FIM HEADER */
+
+/* PHOTO GROUP */
+.photo-group img{
+    width: 100%;
+}
+/* FIM PHOTO GROUP */
+
+/* QUEM SOMOS */
+.quem-somos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text-quemsomos{
+    /* margin-top: 160px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 160px 150px;
+position: relative;
+}
+
+.text-quemsomos img{
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.text-quemsomos p{
+    margin-top: 50px;
+    font-size: 25px;
+    text-align: justify;
+}
+.text-quemsomos h2{
+   font-size: 50px;
+}
+/* FIM QUEM SOMOS */
+
+/* NOSSA MISSÃO */
+.nuvem-missao{
+    display: flex;
+    justify-content: end;
+
+}
+
+.nossa-missao{
+    margin-bottom: 160px;
+}
+
+.container-nossamissao{
+    display: flex;
+    align-items: start;
+    margin-top: 25px;
+}
+
+.container-nossamissao p{
+    display: flex;
+    align-items: start;
+    font-size: 30px;
+    margin: 50px;
+    text-align: justify;
+
+}
+
+.container-nossamissao img{
+    margin-left: 50px;
+    display: flex;
+    margin-top: 50px;
+}
+/* FIM NOSSA MISSÃO */
+
+/* NOSSO TIME */
+
+.text{
+    display: flex;
+    justify-content: center;
+    font-size: 26px;
+    margin: 50px;
+
+}
+.equipe-girls, .boys-equipe{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    gap: 150px;
+    margin-bottom: 100px;
+}
+
+.equipe-girls p, .boys-equipe p{
+    font-size: 30px;
+    height: 66px;
+    width: 320px;
+    margin-top: 15px;
+}
+
+/* FIM NOSSO TIME */
+
+/* FOOTER */
+footer{
+    display: flex;
+    padding-bottom: 25px;
+    padding-top: 55px;
+    background-color: var(--color-background-header);
+    justify-content: space-around;
+}
+
+.logo-footer img{
+    margin-bottom: 44px;
+}
+
+.logo-footer p{
+    line-height: 2;
+}
+
+.contato-footer h6, .ajuda-footer h6, .termos-footer h6{
+    font-size: 23px;
+    margin-bottom: 22px;
+}
+
+.contato-footer p, .ajuda-footer p, .termos-footer p{
+    font-size: 20px;
+    margin-bottom: 22px;
+    line-height: 2;
+    cursor: pointer;
+}
+
+.sociais-midias{
+    display: flex;
+    flex-direction: row;
+    align-items:start;
+
+}
+
+.sociais-midias img{
+    margin-right: 10px;
+
+}
+/* FIM FOOTER */

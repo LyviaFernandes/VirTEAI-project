@@ -19,10 +19,14 @@ nav{
 
 .container-header img{
    width: 45px;
+   cursor: pointer;
 
 }
-.container-nav p{
+.container-nav a p{
     width: 130px;
+    cursor: pointer;
+    list-style: none;
+    text-decoration: none;
 }
 .logo{
     width: 138px;
@@ -42,6 +46,7 @@ nav{
     border-radius: 10px;
     margin-right: 15px;
     background-color: var(--color-white);
+    cursor: pointer;
 }
 
 .blue{
@@ -50,6 +55,7 @@ nav{
     border-radius: 10px;
     background-color: var(--color-blue-confort);
     color: var(--color-white);
+    cursor: pointer;
 }
 /* FIM HEADER */
 
