@@ -1,0 +1,119 @@
+@import url('/src/styles/global.css');
+
+
+/* HEADER */
+header{
+    display: flex;
+    background-color: var(--color-background-header);
+    padding: 0px 25px;
+    margin-bottom: 200px;
+}
+
+.logo img{
+    width: 100px;
+    height: 90px;
+    margin-left: 10px;
+    margin-top: 20px;
+}
+
+.logo{
+    justify-items: center;
+}
+
+.voltar a{
+    display: flex;
+    margin-top: 57px;
+    gap: 15px;
+    margin-left: 650px;
+    margin-bottom: 50px;
+    cursor: pointer;
+    align-items: center;
+    text-decoration: none;
+    color: black;
+}
+
+.voltar img{
+    width: 25px;
+    display: flex;
+    
+}
+
+.profile{
+    display: flex;
+    align-items: center;
+}
+
+.profile .line22{
+    height: 80px;
+    margin-left: 30px;
+}
+/* FIM HEADER */
+
+/* COMPRAS */
+.compras{
+    text-align: center;
+    margin-bottom: 280px;
+}
+
+.compras img{
+    width: 190px;
+    margin-bottom: 90px;
+}
+
+.compras h1{
+    margin-bottom: 80px;
+
+}
+
+.compras a button{
+    width: 460px;
+    height: 90px;
+    border-radius: 15px;
+    border: 1px solid var(--color-blue-confort);
+    background-color: var(--color-background-header);
+    cursor: pointer;
+}
+/* FIM COMPRAS */
+
+/* FOOTER */
+footer{
+    display: flex;
+    padding-bottom: 36px;
+    padding-top: 55px;
+    background-color: var(--color-background-header);
+    justify-content: space-around;
+}
+
+.logo-footer img{
+    margin-bottom: 44px;
+    width: 150px;
+}
+
+.logo-footer p{
+    line-height: 2;
+}
+
+.contato-footer h6, .ajuda-footer h6, .termos-footer h6{
+    font-size: 23px;
+    margin-bottom: 22px;
+
+}
+
+.contato-footer p, .ajuda-footer p, .termos-footer p{
+    font-size: 20px;
+    margin-bottom: 22px;
+    line-height: 2;
+    cursor: pointer;
+}
+
+.sociais-midias{
+    display: flex;
+    flex-direction: row;
+    align-items:start;
+
+}
+.sociais-midias img{
+    margin-right: 5px;
+    width: 30px;
+}
+/* FIM FOOTER */

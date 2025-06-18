@@ -1,0 +1,215 @@
+@import url('global.css');
+
+/* HEADER */
+header{
+    display: flex;
+    justify-content: center;
+    background-color: var(--color-background-header);
+    padding: 3px 45px;
+}
+
+nav{
+    display: flex;
+    gap: 85px;
+    text-align: center;
+    margin-top: 31px;
+    margin-bottom: 29px;
+
+}
+
+.container-header img{
+   width: 45px;
+   cursor: pointer;
+
+}
+.container-nav a p{
+    width: 130px;
+    cursor: pointer;
+    list-style: none;
+    text-decoration: none;
+}
+.container-nav a{
+    text-decoration: none;
+    color: #000;
+}
+.logo{
+    width: 138px;
+    height: 136px;
+    margin-right: 70px;
+}
+
+.container-button-header{
+    margin-top: 39px;
+    margin-left: 100px;
+    display: flex;
+}
+
+.white{
+    width: 120px;
+    height: 45px;
+    border-radius: 10px;
+    margin-right: 15px;
+    background-color: var(--color-white);
+    cursor: pointer;
+}
+
+.blue{
+    width: 150px;
+    height: 45px;
+    border-radius: 10px;
+    background-color: var(--color-blue-confort);
+    color: var(--color-white);
+    cursor: pointer;
+}
+/* FIM HEADER */
+
+/* VR SECTION */
+.vr-img img{
+    width: 100%;
+}
+/* FIM VR SECTION */
+
+/* RELATOS */
+.texto-relatos{
+    margin-top: 50px;
+    margin-bottom: 60px;
+    text-align: center;
+    justify-items: center;
+}
+.texto-relatos h2{
+   font-size: 50px;
+   margin-bottom: 40px;
+}
+
+.texto-relatos p{
+    font-size: 24px;
+    width: 1100px;
+    text-align: center;
+}
+
+.cards-container{
+    display: flex;
+    gap: 40px;
+    width: 100%; /* Defina a largura do contêiner */
+    height: 100; /* Defina a altura do contêiner */
+    overflow-y  : scroll; /* Habilita a rolagem horizontal */
+   
+}
+
+.card-relatos{
+    background-color: var(--color-background-header);
+    padding: 20px;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.card-relatos .relato{
+    background-color: var(--color-white);
+    padding: 10px;
+    height: 307px;
+    border-radius: 20px;
+    margin-top: 19px;
+    font-size: 16px;
+    text-align: justify;
+}
+
+.card-relatos .relato .nome{
+    text-align: center;
+    margin-top: 16px;
+    margin-bottom: 20px;
+}
+
+.line {
+    margin-bottom: 20px;
+    width: 100%;
+    height: 1px;
+    background-color: black;
+}
+/* FIM RELATOS */
+
+/* EMPRESAS PARCEIRAS */
+.Empresas{
+    margin-bottom: 118px;
+}
+.text-empresa{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 80px;
+    justify-content: center
+}
+.text-empresa h2{
+    font-size: 50px;
+    margin-bottom: 50px;
+}
+
+.text-empresa p{
+    font-size: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.container-parceiros{
+    display: flex;
+    gap: 100px;
+    text-align: center;
+    margin-left: 70px;
+}
+
+.container-parceiros a{
+    text-decoration: none;
+    color: #000;
+}
+
+.container-parceiros .parceiros img{
+    width: 200px;
+    height: 170px;
+    margin-bottom: 23px;
+}
+/* FIM EMPRESAS PARCEIRAS */
+
+/* FOOTER */
+footer{
+    display: flex;
+    padding-bottom: 36px;
+    padding-top: 55px;
+    background-color: var(--color-background-header);
+    justify-content: space-around;
+}
+
+.logo-footer img{
+    margin-bottom: 44px;
+}
+
+.logo-footer p{
+    line-height: 2;
+}
+
+.contato-footer h6, .ajuda-footer h6, .termos-footer h6{
+    font-size: 23px;
+    margin-bottom: 22px;
+}
+
+.contato-footer p, .ajuda-footer p, .termos-footer p{
+    font-size: 20px;
+    margin-bottom: 22px;
+    line-height: 2;
+    cursor: pointer;
+}
+
+.sociais-midias{
+    display: flex;
+    flex-direction: row;
+    align-items:start;
+
+}
+
+.sociais-midias img{
+    margin-right: 10px;
+
+}
+/* FIM FOOTER */
+

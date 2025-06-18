@@ -1,0 +1,248 @@
+@import url('/src/styles/global.css');
+
+
+/* HEADER */
+header{
+    display: flex;
+    justify-content: center;
+    background-color: var(--color-background-header);
+    padding: 3px 45px;
+}
+
+nav{
+    display: flex;
+    gap: 100px;
+    text-align: center;
+    margin-top: 31px;
+    margin-bottom: 29px;
+
+}
+
+.profile{
+    margin-left: 100px;
+}
+
+.container-header img{
+   width: 45px;
+   cursor: pointer;
+
+}
+.container-nav a p{
+    width: 130px;
+    cursor: pointer;
+    list-style: none;
+    text-decoration: none;
+}
+
+.container-nav a{
+    text-decoration: none;
+    color: #000;
+}
+.logo img{
+    width: 138px;
+    height: 136px;
+    margin-right: 150px;
+}
+
+.container-button-header{
+    margin-top: 39px;
+    margin-left: 100px;
+    display: flex;
+}
+
+.white{
+    width: 120px;
+    height: 45px;
+    border-radius: 10px;
+    margin-right: 15px;
+    background-color: var(--color-white);
+    cursor: pointer;
+}
+
+.blue{
+    width: 150px;
+    height: 45px;
+    border-radius: 10px;
+    background-color: var(--color-blue-confort);
+    color: var(--color-white);
+    cursor: pointer;
+}
+/* FIM HEADER */
+
+/* IMAGEM */
+img{
+    width: 100%;
+    
+}
+
+.images{
+    display: flex;
+    width: 100%;
+}
+/* FIM IMAGEM */
+
+/* PLANOS IDEAIS */
+.text-ofertas{
+    text-align: center;
+    justify-items: center;
+}
+
+.text-ofertas h1{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-size: 50px;
+}
+
+.text-ofertas p{
+    font-size: 30px;
+    width: 1100px;
+    margin-bottom: 80px;
+}
+
+.planos-cards{
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    text-align: center;
+}
+
+
+.mensal{
+    background-color: var(--color-areia);
+    padding: 3%;
+    border: 3px solid var(--color-aqua-blue);
+    border-radius: 20px;
+    justify-content: center;
+    text-align: center;
+}
+
+.plano-mensal{
+    padding: 6%;
+    font-size: 35px;
+    margin-bottom: 20px;
+    border-radius: 50px;
+   background-color: var(--color-aqua-blue);
+   color: var(--color-white);
+}
+
+.preco-personalizado h3{
+    font-size: 50px;
+    color: var(--color-blue-confort);
+}
+
+.preco-personalizado p{
+    color: var(--color-blue-confort);
+    align-items: end;
+    margin-bottom: 6px;
+    display: flex;
+}
+.mensal h3{
+    font-size: 50px;
+    color: var(--color-blue-confort);
+}
+.personalizado{
+    background-color: var(--color-areia);
+    padding: 3%;
+    border: 3px solid var(--color-beje);
+    border-radius: 20px;
+    justify-content: center;
+
+}
+
+.plano-personalizado{
+    padding: 2%;
+    font-size: 35px;
+    margin-bottom: 20px;
+    border-radius: 50px;
+    background-color:  var(--color-beje);
+    color: var(--color-white);
+}
+.preco-personalizado{
+    display: flex;
+}
+
+h2{
+    font-size: 30px;
+    width: 290px;
+    text-align: center;
+    margin-bottom: 39px;
+    color: var(--color-blue-confort);
+    justify-content: center;
+}
+
+.check-container{
+    display: flex;
+    line-height: 30px;
+    font-size: 20px;
+    margin-bottom: 39px;
+}
+.check-container img{
+    width: 20px;
+    margin-right: 10px;
+}
+
+.saiba-mais{
+    padding: 1%;
+    font-size: 15px;
+    margin-top: 20px;
+    border-radius: 50px;
+   background-color: var(--color-aqua-blue);
+   color: var(--color-white);
+}
+
+.saiba-mais-premium{
+    padding: 1%;
+    font-size: 15px;
+    margin-top: 20px;
+    border-radius: 50px;
+   background-color: var(--color-beje);
+   color: var(--color-white);
+}
+/* FIM PLANOS IDEAIS */
+
+/* RESUMO COMPARATIVO */
+    
+/* FIM RESUMO COMPARATIVO */
+
+/* FOOTER */
+footer{
+    display: flex;
+    padding-bottom: 36px;
+    padding-top: 55px;
+    background-color: var(--color-background-header);
+    justify-content: space-around;
+}
+
+.logo-footer img{
+    margin-bottom: 44px;
+    width: 150px;
+}
+
+.logo-footer p{
+    line-height: 2;
+}
+
+.contato-footer h6, .ajuda-footer h6, .termos-footer h6{
+    font-size: 23px;
+    margin-bottom: 22px;
+
+}
+
+.contato-footer p, .ajuda-footer p, .termos-footer p{
+    font-size: 20px;
+    margin-bottom: 22px;
+    line-height: 2;
+    cursor: pointer;
+}
+
+.sociais-midias{
+    display: flex;
+    flex-direction: row;
+    align-items:start;
+
+}
+.sociais-midias img{
+    margin-right: 5px;
+    width: 30px;
+}
+/* FIM FOOTER */

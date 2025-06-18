@@ -1,0 +1,35 @@
+@font-face {
+    font-family: 'Comfortaa';
+    src: url('../assets/fonts/Comfortaa-VariableFont_wght.ttf');         
+}
+@font-face {
+    font-family: 'Marmelad';
+    src: url('../assets/fonts/Marmelad-Regular.ttf');         
+}
+
+*{
+    margin: 0px;
+    border: 0px;
+    padding: 0px;
+}
+
+p, h6, input{
+    font-family: 'Comfortaa';
+}
+
+h2,h1,h3, button{
+    font-family: 'Marmelad';
+}
+:root {
+    --color-blue-confort: #415A77;
+    --color-white: #FFFFFF;
+    --color-background-header: #CADAED;
+    --color-black: #000000;
+    --color-areia: #F9F6ED;
+    --color-aqua-blue: #7EC9D1;
+    --color-beje: #C9BBA0;
+    --color-blue-table: #CBEFF2;
+    --color-blue-cadastro: #9CB4D3;
+
+    font: normal 16px 'Comfortaa', sans-serif;
+}

@@ -1,0 +1,111 @@
+@import url('/src/styles/global.css');
+
+/* HEADER */
+header{
+    display: flex;
+    background-color: var(--color-background-header);
+    padding: 5px 30px;
+}
+
+.logo img{
+    width: 100px;
+    height: 90px;
+    margin-left: 10px;
+    margin-top: 25px;
+}
+
+.logo{
+    justify-items: center;
+}
+
+.voltar a{
+    display: flex;
+    margin-top: 57px;
+    gap: 15px;
+    margin-left: 780px;
+    margin-bottom: 50px;
+    cursor: pointer;
+    align-items: center;
+    text-decoration: none;
+    color: black;
+}
+
+.voltar img{
+    width: 30px;
+    display: flex;
+    
+}
+
+/* FIM HEADER */
+
+/* LOGIN */
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: calc(100vh - 90px);
+    background-color: var(--color-white);
+    margin-bottom: 90px;
+}
+
+.login-box {
+    background-color: var(--color-blue-cadastro);
+    padding: 30px 50px;
+    border-radius: 25px;
+    text-align: center;
+    width: 400px;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+.cadastro-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.login-logo {
+    height: 100px;
+    margin-bottom: 30px;
+}
+
+.login-input {
+    width: 92%;
+    padding: 16px;
+    border-radius: 12px;
+    border: none;
+    font-size: 16px;
+    font-family: var(--font-default);
+    margin-bottom: 20px;
+    justify-content: center;
+}
+
+.login-input:last-of-type {
+    margin-bottom: 40px;
+}
+
+.login-button {
+    width: 100%;
+    padding: 16px;
+    border: none;
+    border-radius: 12px;
+    background-color: #ffffff;
+    color: black;
+    font-size: 16px;
+    font-family: var(--font-default);
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-bottom: 30px;
+}
+
+.login-button:hover {
+    background-color: var(--color-background-header);
+}
+
+.login-input[type="date"] {
+    color: #0000007c;
+    font-family: var(--font-default);
+}
